@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/barangFragment">
+
+    <fragment
+        android:id="@+id/barangFragment"
+        android:name="com.example.megagigasolusindoapplication.Fragment.BarangFragment"
+        android:label="fragment_barang"
+        tools:layout="@layout/fragment_barang" />
+
+    <fragment
+        android:id="@+id/supplierFragment"
+        android:name="com.example.megagigasolusindoapplication.Fragment.SupplierFragment"
+        android:label="fragment_supplier"
+        tools:layout="@layout/fragment_supplier" />
+
+</navigation>
